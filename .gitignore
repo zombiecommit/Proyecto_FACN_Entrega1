@@ -1,0 +1,19 @@
+
+# Entorno virtual
+.venv/
+venv/
+
+# Datasets e imágenes
+MNIST_data/
+Bone_Fracture_Binary_Classification/
+
+# Archivos de Python
+__pycache__/
+*.pyc
+
+# Archivos temporales de Jupyter
+.ipynb_checkpoints/
+
+# Modelos y archivos generados
+*.pt
+*.pth
