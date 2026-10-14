@@ -4,14 +4,43 @@
 
 ## Integrantes
 
-- **Laura Dayana Tascón** — Código : 2438545-2724
-- **Daniel Escobar Escobar** — Código : 2437924-2724
+| Integrante | Código | Responsabilidad principal |
+|---|---|---|
+| **Laura Dayana Tascón** | 2438545-2724 | Notebook de fracturas óseas, interpretación de métricas, informe técnico y presentación |
+| **Daniel Escobar Escobar** | 2437924-2724 | Notebooks con MNIST (partes 1, 2 y 3), instrucciones de ejecución y coordinación del repositorio |
 
 ## Descripción del proyecto
 
 Este proyecto aborda los fundamentos de redes neuronales utilizando PyTorch, mediante ejercicios prácticos con tensores, construcción de redes neuronales y entrenamiento de modelos de aprendizaje profundo.
 
 Se trabaja con dos conjuntos de datos: MNIST, para la clasificación de dígitos escritos a mano, y Bone Fracture Multi-Region X-ray Data, para la clasificación de radiografías en las categorías de fractura y sin fractura.
+
+## Conjuntos de datos
+
+### MNIST
+
+- **Contenido:** imágenes de dígitos escritos a mano en escala de grises de 28×28 píxeles.
+- **Clases:** 10 (dígitos del 0 al 9).
+- **Uso en el proyecto:** partes 1, 2 y 3 de las guías (`Parte_1_Tensors`, `Parte_2_Neural_Networks` y `Parte_3_Training`).
+
+### Bone Fracture Multi-Region X-ray Data
+
+- **Contenido:** radiografías de distintas regiones del cuerpo, divididas en dos clases: `fractured` (con fractura) y `not fractured` (sin fractura).
+- **Uso en el proyecto:** `Parte_2_3_Bone_Fracture.ipynb`.
+- **Distribución de las imágenes:**
+
+| Conjunto | fractured | not fractured | Total |
+|---|---|---|---|
+| Entrenamiento | 4606 | 4640 | 9246 |
+| Validación | 337 | 492 | 829 |
+| Prueba | 238 | 268 | 506 |
+
+- **Observaciones:** el conjunto de validación tiene 829 imágenes, una más que las 828 indicadas por el autor, y está desbalanceado (337 vs. 492). Entrenamiento y prueba están casi balanceados.
+- **Preprocesamiento aplicado:** escala de grises (1 canal), redimensionado a 64×64 píxeles y normalización a valores entre -1 y 1.
+- **Estructura de carpetas:** cada conjunto (`train`, `val`, `test`) contiene una subcarpeta por clase. El notebook detecta automáticamente si el dataset está dentro de una o de dos carpetas `Bone_Fracture_Binary_Classification` anidadas.
+- **Fuente:** [Fracture Multi-Region X-ray Data (Kaggle)](https://www.kaggle.com/datasets/bmadushanirodrigo/fracture-multi-region-x-ray-data/data).
+- **Licencia:** Open Data Commons Attribution License (ODC-By) v1.0. Se debe dar atribución al autor.
+
 
 ## Contenido del repositorio
 
