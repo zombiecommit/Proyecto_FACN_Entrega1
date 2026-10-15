@@ -4,8 +4,8 @@
 
 ## Integrantes
 
-- **Laura Dayana Tascón** — Código : 2438545-2724
-- **Daniel Escobar Escobar** — Código : 2437924-2724
+- **Laura Dayana Tascón** — Código estudiantil: 2438545
+- **Daniel Escobar Escobar** — Código estudiantil: 2437924
 
 ## Descripción del proyecto
 
