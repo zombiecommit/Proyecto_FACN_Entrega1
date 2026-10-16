@@ -4,10 +4,12 @@
 
 ## Integrantes
 
+
 | Integrante | Código | Responsabilidad principal |
 |---|---|---|
-| **Laura Dayana Tascón** | 2438545-2724 | Notebook de fracturas óseas, interpretación de métricas, informe técnico y presentación |
-| **Daniel Escobar Escobar** | 2437924-2724 | Notebooks con MNIST (partes 1, 2 y 3), instrucciones de ejecución y coordinación del repositorio |
+| **Laura Dayana Tascón** | 2438545 | Notebook de fracturas óseas, interpretación de métricas, informe técnico y presentación |
+| **Daniel Escobar Escobar** | 2437924 | Notebooks con MNIST (partes 1, 2 y 3), instrucciones de ejecución y coordinación del repositorio |
+
 
 ## Descripción del proyecto
 
